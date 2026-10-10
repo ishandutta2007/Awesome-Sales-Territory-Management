@@ -51,9 +51,9 @@ Below is a curated comparison of leading commercial Sales Territory Management S
 
 ## 🔓 Open-Source GitHub Projects
 
-Curated open-source territory optimization frameworks, CRM engines, and geospatial analysis tools, sorted by **GitHub Star Count (Descending)**.
+Curated open-source territory optimization frameworks, CRM engines, and geospatial analysis tools, sorted by **GitHub Stars_Count (Descending)**.
 
-| Star Badge ⭐ | Repository / Tool Name 🛠️ | License 📜 | Description & Technical Highlights 💡 |
+| Stars_Badge ⭐ | Repository / Tool Name 🛠️ | License 📜 | Description & Technical Highlights 💡 |
 | :---: | :--- | :---: | :--- |
 | [<img stroke="white" src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Stars"/>](https://github.com/odoo/odoo/stargazers) | **[Odoo](https://github.com/odoo/odoo)** | LGPL-3.0 | Suite of open-source business apps featuring dedicated territory modules, sales regions, and field team branch assignments. |
 | [<img stroke="white" src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/>](https://github.com/frappe/erpnext/stargazers) | **[ERPNext](https://github.com/frappe/erpnext)** | GPL-3.0 | Full open-source ERP with sales territory trees, customer target quotas, and sales manager assignment rules. |
