@@ -1,225 +1,107 @@
-# Awesome-Sales-Territory-Management
+# Awesome Sales Territory Management 🗺️📈
 
-## Top Sales Territory Management Ecosystem
+![Awesome Sales Territory Management Banner](assets/banner.svg)
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <img src="https://img.shields.io/github/last-commit/ishandutta2007/Awesome-Sales-Territory-Management?style=flat-square" alt="Last Commit" />
+  <img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Sales-Territory-Management?style=flat-square" alt="License" />
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 🚀 Top Sales Territory Management Ecosystem
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A curated index of commercial SaaS platforms, geospatial mapping tools, and self-hosted open-source software for revenue operations (RevOps), sales planning, quota allocation, and account carving.**
 
-*Focused on Territory Design, Geographic Assignment & Self-Hosted Sales Planning Tools*  
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **commercial sales territory management platforms** and **open-source projects** that help sales operations teams design territories, assign accounts, visualize geographic coverage, and balance workload across sales representatives.
-
-
-
-**Examples** include Salesforce Enterprise Territory Management, Fullpath, Anaplan Territory Planning, Xactly AlignStar, eSpatial, Mapline, Geopointe, Badger Maps, Varicent Territory Planning, and Salesloft Planning (the category leaders).
-
-
-
-**Open-source emphasis**: Sales territory management is a growing open-source domain. **b2b-territory-optimization** leads as a dedicated Python framework for mathematically carving and balancing B2B sales territories with strict taxonomy buckets, LPT balancing, and manager override simulation . **Interactive-Territory-Mapping** provides dual grid systems (Turf.js squares and H3 hexagons) with click-to-place markers, contact assignment, and MapLibre GL visualization . **OroCRM** includes territory management as a core feature within its open-source CRM platform . **YetiForce CRM** offers task and territory management with regular updates and on-premise deployment . **Adverax CRM** provides enterprise territory management with lifecycle states, hierarchical trees, and RLS integration . **Open Door Logistics Studio** delivers standalone territory design and mapping using Excel spreadsheets . This section is heavily expanded.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[Salesforce Enterprise Territory Management](https://www.salesforce.com/)**  
-
-  **Salesforce's native territory management** — assign accounts to territories based on rules, track territory hierarchy, and integrate with opportunity management. **Best for Salesforce customers wanting native territory assignment**.
-
-
-
-- **[Fullpath](https://www.fullpath.com/)**  
-
-  **Automotive sales planning and territory management** — territory design and quota tracking for dealership groups and OEMs.
-
-
-
-- **[Anaplan Territory Planning](https://www.anaplan.com/)**  
-
-  **Enterprise connected planning** — territory design, quota allocation, and capacity modeling integrated with sales performance management. **Best for large enterprises with complex planning needs**.
-
-
-
-- **[Xactly AlignStar](https://www.xactlycorp.com/)**  
-
-  **Territory and quota planning with visualization** — geographic territory design, account assignment, and quota modeling. **Best for incentive compensation alignment**.
-
-
-
-- **[eSpatial](https://www.espatial.com/)**  
-
-  **Territory mapping and optimization** — geographic territory design with data-driven balancing. **Best for field sales territory planning**.
-
-
-
-- **[Mapline](https://mapline.com/)**  
-
-  **Mapping and territory analysis** — visualize sales data by geography and optimize territory boundaries.
-
-
-
-- **[Geopointe](https://www.geopointe.com/)**  
-
-  **Salesforce-native mapping** — territory visualization, route optimization, and geographic analytics within Salesforce.
-
-
-
-- **[Badger Maps](https://www.badgermapping.com/)**  
-
-  **Field sales territory management** — route optimization, territory visualization, and CRM integration for field reps.
-
-
-
-- **[Varicent Territory Planning](https://www.varicent.com/)**  
-
-  **Sales performance management** — territory planning, quota allocation, and incentive compensation in one platform.
-
-
-
-- **[Salesloft Planning](https://www.salesloft.com/)**  
-
-  **Sales engagement with territory planning** — territory alignment and quota tracking integrated with sales execution.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-### Territory Optimization Frameworks
-
-
-
-- **[b2b-territory-optimization](https://github.com/RevOps-Group/b2b-territory-optimization)**  
-
-  **Open-source Python framework for mathematically designing and managing B2B sales territories**, MIT licensed . **TaxonomySchema** defines strict hierarchical boundaries (e.g., "Enterprise AMER") preventing cross-contamination — unlike generic K-Means clustering, territories respect hard constraints . **TerritoryAllocator** uses Longest Processing Time (LPT) multiprocessor scheduling algorithm to greedily balance TAM and workload across K territories with <0.1% imbalance . **SellerAssignmentMatrix** maps custom human resource roles (AE, SE, Manager) to territories using configurable coverage ratios (1:1, 1:3, 2:1) . **ReassignmentEngine** simulates manager overrides — tracks manual account moves, flags resulting TAM imbalance, and suggests optimal accounts to swap back . **Seamless integration with b2b-revenue-forecasting** — export hierarchy directly into forecasting package . **Best for RevOps analysts and data scientists designing territories mathematically**.
-
-
-
-### Interactive Mapping & Visualization Tools
-
-
-
-- **[Interactive-Territory-Mapping](https://github.com/AbdulRehmanMehar/Interactive-Territory-Mapping)**  
-
-  **Interactive geospatial territory management tool with dual grid systems**, open-source . **50m Square Grid (Turf.js)** for precise rectangular territory divisions . **H3 Hexagonal Grid** with zoom-adaptive resolution for efficient area coverage . **Click-to-place markers on MapLibre GL maps** with smart territory selection — tiles highlight automatically when markers are placed . **Contact management** with full CRUD and bulk assignment operations . **AI Area Search** for quick location lookup (London, Manchester, Birmingham) . **Customizable icons** (Pin, Home, Star, Circle, Building, Flag) . **Persistent storage** via LocalStorage . **Performance optimized** — dynamic cell count limiting (5k mobile, 15k desktop) with viewport-aware grid regeneration . **Best for field service and sales territory planning with visual maps**.
-
-
-
-- **[Open Door Logistics Studio](https://github.com/OpenDoorLogistics/odl-studio)**  
-
-  **Standalone open-source application for sales territory design, mapping, and fleet routing**, open-source . **Excel spreadsheet-based** — perform customer location analysis, territory design, and vehicle fleet routing all using familiar spreadsheet data . **Easy-to-use standalone application** — no complex setup required . **Best for field service and distribution territory planning with Excel workflows**.
-
-
-
-### CRM-Integrated Territory Management
-
-
-
-- **[OroCRM](https://github.com/oroinc/crm-application)**  
-
-  **Flexible open-source CRM with territory management**, OSL-3.0 licensed . **Track leads, opportunities, sales territories, and sales activity** . **Build a 360-degree view of customers** across multiple touchpoints . **Dashboards, reports, and analytics** for customer and sales data . **Marketing activity tracking and customer segmentation** . **Highly customizable Symfony-based application architecture** . **REST API and integration options** . **Best for organizations wanting CRM with built-in territory tracking**.
-
-
-
-- **[YetiForce CRM](https://github.com/YetiForceCompany/YetiForceCRM)**  
-
-  **Hybrid open-source CRM with task and territory management**, open-source . **Task and territory management** as key features . **Email marketing, lead management and scoring, and internal-chat integration** . **Customizable dashboard** with modules including time control, calendars, tickets, and leads . **Built-in email module** linking emails to contacts, leads, accounts, partners, and competitors . **On-premise or cloud deployment** . **Regular updates and new features** . **Best for midsize and large businesses wanting comprehensive CRM with territory features**.
-
-
-
-- **[Adverax CRM (Enterprise Edition)](https://github.com/Adverax/crm)**  
-
-  **Enterprise territory management with lifecycle and hierarchy**, commercial license . **Territorial models with lifecycle** (planning → active → archived) . **Hierarchy of territories** (tree, closure table) . **Assignment of users to territories** (M2M) . **Assignment of records to territories** (rules + manual) . **Integration with RLS** through share tables and territory groups . **Effective caches for territorial visibility** . **REST API for territory management** . **Best for enterprises needing governed territory access control**.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **@arkone_ai/territory-plan** — Claude Code skill that analyzes target accounts and generates balanced territory assignments, segments by geography, vertical, and size, and produces coverage gap analysis .
-
-- **Pfizer Territory Optimization** — Multi-objective optimization framework using Gurobi to assign geographic territories to sales reps, balancing travel efficiency and assignment stability .
-
-- **Odoo Territory Module** — Odoo addon for defining territories, branches, districts, and regions for field service or sales operations .
-
-- **QGIS** — Open-source desktop GIS for territory mapping and spatial analysis, with population mesh and reachability overlays .
-
-- **PostGIS** — PostgreSQL extension for geospatial calculations, useful as a territory analysis computation base .
-
-- **H3** — Uber's hexagonal hierarchical geospatial indexing system for aggregating sales data by hexagonal units .
-
-- **Valhalla** — OpenStreetMap routing engine with isochrone API for reachability analysis in territory planning .
-
-
-
-**Frameworks for building custom sales territory management solutions**: Combine **b2b-territory-optimization** for mathematically balanced territory carving with strict taxonomy constraints . Use **Interactive-Territory-Mapping** for visual territory design with dual grid systems and contact assignment . Deploy **OroCRM** or **YetiForce CRM** for CRM-integrated territory tracking with dashboards and reporting . Choose **Open Door Logistics Studio** for Excel-based territory design and fleet routing . Integrate **QGIS** with **PostGIS** and **H3** for advanced geospatial territory analysis . Use **Pfizer Territory Optimization** for multi-objective optimization research . Note that true enterprise territory management with AI-powered optimization, real-time collaboration at scale, and vendor-supported SLAs (Anaplan, Xactly AlignStar, Fullpath) remains primarily commercial territory; open-source stacks provide strong mathematical optimization, visual mapping, and CRM-integrated territory foundations that require integration for complete sales territory operations.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Sales territory management tools handle sensitive sales performance data and may process PII. Self-hosted solutions require proper security hardening, access controls, and compliance with data privacy regulations.
-
-- **Territory design requires balance across multiple dimensions** — opportunity potential, workload, geographic proximity, and growth paths. Optimization models like b2b-territory-optimization can inform decisions but require human judgment for fairness and relationship considerations .
-
-- **Strict taxonomy constraints are critical** — unlike generic clustering, B2B territory carving must respect hard boundaries (e.g., "Enterprise AMER" cannot contain "Mid-Market EMEA" accounts regardless of mathematical balance) .
-
-- **License considerations**: b2b-territory-optimization uses MIT , OroCRM uses OSL-3.0 , YetiForce CRM is open-source , and Adverax CRM Enterprise uses a commercial license . Verify licensing against your use case before committing.
-
-- The open-source ecosystem provides strong mathematical optimization, visual mapping, and CRM-integrated territory foundations, but **AI-powered optimization, real-time collaboration at scale, and vendor-supported SLAs** remain primarily commercial offerings.
-
-
+> **Market Insights & Industry Dynamics** 💡  
+> The Global Sales Territory Management & Revenue Operations Software Market is estimated at **\$3.8 Billion to \$4.5 Billion (2026)** with a CAGR of ~12.4%.  
+> **Market Structure**: The sector is **moderately fragmented**. High-end enterprise territory design and incentive compensation management (ICM) are dominated by consolidated enterprise suites (Salesforce, Anaplan, Varicent), while field route mapping, GIS visualizers, and specialized RevOps territory optimizers represent a vibrant, fragmented long-tail of specialized tools and open-source packages.
 
 ---
 
+## 📑 Table of Contents
 
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [⭐ Star History](#-star-history)
 
-**Made for sales operations leaders, territory analysts, and organizations seeking sales territory management sovereignty.**  
+---
 
-Let's make sales territory management more open, transparent, and balanced.
+## 🏢 SaaS & Hosted Platforms
+
+Below is a curated comparison of leading commercial Sales Territory Management SaaS platforms, sorted by **Scale (Annual Revenue / Market Valuation) in Descending Order**.
+
+| Platform 🌐 | Scale / Revenue / Valuation 💰 | Starting Tier Price 💵 | Free Tier Limit / Trial Duration ⏱️ | Core Focus & Key Strengths 🎯 |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Salesforce Enterprise Territory Management](https://www.salesforce.com/)** | **\$38.0 Billion** (FY26 Revenue) | \$25/user/month (Starter Suite) | 30-day free trial with sample enterprise data | Native CRM rule-based account assignment, hierarchy modeling, & opportunity integration. |
+| **[Anaplan Territory Planning](https://www.anaplan.com/)** | **\$10.7 Billion** (Thoma Bravo Acquisition) | \$50,000/year (Base Enterprise Tier) | 90-day sandbox trial for enterprise partners | Multi-dimensional connected planning, quota allocation, & enterprise scenario modeling. |
+| **[Salesloft Planning](https://www.salesloft.com/)** | **\$1.1 Billion** (Vista Equity Valuation) | \$75/user/month (Essentials Tier) | 14-day full platform enterprise free trial | Revenue workflow alignment, sales execution, & territory quota tracking. |
+| **[Varicent Territory Planning](https://www.varicent.com/)** | **\$1.0 Billion+** (Enterprise Valuation) | \$15,000/year (Base Platform) | 30-day interactive sandbox demo environment | Sales performance management, quota capacity modeling, & incentive compensation alignment. |
+| **[Xactly AlignStar](https://www.xactlycorp.com/)** | **\$1.0 Billion+** (Vista Equity Valuation) | \$1,200/user/year (AlignStar Professional) | 14-day free trial with map visualization limit | Geographic territory carving, workload balancing, & incentive compensation alignment. |
+| **[Badger Maps](https://www.badgermapping.com/)** | **\$15 Million** (Estimated ARR) | \$49/user/month (Business Plan) | 7-day free trial (full features, up to 100 accounts) | Field sales route optimization, lead mapping, & mobile CRM sync for outside reps. |
+| **[Geopointe](https://www.geopointe.com/)** | **\$12 Million** (Estimated ARR) | \$74/user/month (Annual Contract) | 14-day AppExchange free trial | Salesforce-native geospatial mapping, territory routing, & spatial analytics. |
+| **[eSpatial](https://www.espatial.com/)** | **\$10 Million** (Estimated ARR) | \$1,295/user/year (Pro Territory Plan) | 7-day free trial (up to 2,500 records uploaded) | Geographic boundary alignment, heat mapping, & automated territory balancing. |
+| **[Mapline](https://mapline.com/)** | **\$8 Million** (Estimated ARR) | \$30/user/month (Plus Plan) | Free Forever Plan (1 map, up to 500 locations) | Fast spreadsheet mapping, custom boundary creation, & territory routing analysis. |
+| **[Fullpath](https://www.fullpath.com/)** | **\$6 Million** (Estimated ARR) | \$500/dealership/month | 30-day trial for OEM & dealer groups | Automotive dealership sales planning, OEM territory allocation, & shopper intelligence. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Curated open-source territory optimization frameworks, CRM engines, and geospatial analysis tools, sorted by **GitHub Star Count (Descending)**.
+
+| Star Badge ⭐ | Repository / Tool Name 🛠️ | License 📜 | Description & Technical Highlights 💡 |
+| :---: | :--- | :---: | :--- |
+| [<img stroke="white" src="https://img.shields.io/github/stars/odoo/odoo?style=social&color=white" alt="Odoo Stars"/>](https://github.com/odoo/odoo/stargazers) | **[Odoo](https://github.com/odoo/odoo)** | LGPL-3.0 | Suite of open-source business apps featuring dedicated territory modules, sales regions, and field team branch assignments. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/>](https://github.com/frappe/erpnext/stargazers) | **[ERPNext](https://github.com/frappe/erpnext)** | GPL-3.0 | Full open-source ERP with sales territory trees, customer target quotas, and sales manager assignment rules. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/qgis/QGIS?style=social&color=white" alt="QGIS Stars"/>](https://github.com/qgis/QGIS/stargazers) | **[QGIS Desktop GIS](https://github.com/qgis/QGIS)** | GPL-2.0 | Open-source desktop GIS platform for spatial sales mapping, Voronoi territory partitioning, and population mesh analysis. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/uber/h3?style=social&color=white" alt="Uber H3 Stars"/>](https://github.com/uber/h3/stargazers) | **[Uber H3 Hexagonal Grid](https://github.com/uber/h3)** | Apache-2.0 | Hexagonal hierarchical spatial index for aggregating account density, market demand, and carving balanced hexagonal sales regions. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/valhalla/valhalla?style=social&color=white" alt="Valhalla Stars"/>](https://github.com/valhalla/valhalla/stargazers) | **[Valhalla Routing Engine](https://github.com/valhalla/valhalla)** | MIT | OpenStreetMap routing engine with Isochrone API for calculating drive-time reachability boundaries in territory planning. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/postgis/postgis?style=social&color=white" alt="PostGIS Stars"/>](https://github.com/postgis/postgis/stargazers) | **[PostGIS Spatial Database](https://github.com/postgis/postgis)** | GPL-2.0 | PostgreSQL spatial database extension enabling geographic clustering, polygon boundary intersection, and territory queries. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/YetiForceCompany/YetiForceCRM?style=social&color=white" alt="YetiForce CRM Stars"/>](https://github.com/YetiForceCompany/YetiForceCRM/stargazers) | **[YetiForce CRM](https://github.com/YetiForceCompany/YetiForceCRM)** | Flexible | Enterprise open-source CRM with built-in territory management, task routing, lead scoring, and control panels. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/oroinc/crm-application?style=social&color=white" alt="OroCRM Stars"/>](https://github.com/oroinc/crm-application/stargazers) | **[OroCRM](https://github.com/oroinc/crm-application)** | OSL-3.0 | Symfony-based open-source CRM featuring sales territory hierarchies, workflow automation, and multi-channel customer tracking. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/apache/ofbiz?style=social&color=white" alt="Apache OFBiz Stars"/>](https://github.com/apache/ofbiz/stargazers) | **[Apache OFBiz](https://github.com/apache/ofbiz)** | Apache-2.0 | Suite of enterprise automation software including sales party manager and geographical territory configuration. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/steedos/steedos-app-crm?style=social&color=white" alt="Steedos CRM Stars"/>](https://github.com/steedos/steedos-app-crm/stargazers) | **[Steedos CRM](https://github.com/steedos/steedos-app-crm)** | MIT | Open-source low-code CRM platform supporting custom sales territory rules, account sharing, and user visibility constraints. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/rricc22/Pfizer-Territory-Optimization?style=social&color=white" alt="Pfizer Territory Optimization Stars"/>](https://github.com/rricc22/Pfizer-Territory-Optimization/stargazers) | **[Pfizer Territory Optimization](https://github.com/rricc22/Pfizer-Territory-Optimization)** | MIT | Multi-objective optimization framework using Gurobi/Python to assign geographic territories to sales reps balancing travel efficiency. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/Adverax/crm?style=social&color=white" alt="Adverax CRM Stars"/>](https://github.com/Adverax/crm/stargazers) | **[Adverax CRM](https://github.com/Adverax/crm)** | Commercial/Dual | Enterprise CRM territory model module with lifecycle states (planning → active → archived), tree hierarchies, and RLS integration. |
+| [<img stroke="white" src="https://img.shields.io/github/stars/AbdulRehmanMehar/Interactive-Territory-Mapping?style=social&color=white" alt="Interactive Territory Mapping Stars"/>](https://github.com/AbdulRehmanMehar/Interactive-Territory-Mapping/stargazers) | **[Interactive-Territory-Mapping](https://github.com/AbdulRehmanMehar/Interactive-Territory-Mapping)** | MIT | Geospatial web app featuring Turf.js 50m grid & Uber H3 hex grid with MapLibre GL map markers and contact territory assignment. |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. Fork this repository.
+2. Edit `README.md` to add your SaaS platform or Open-Source project.
+3. Keep entries factual, concise, and formatted according to the table schema above.
+4. Submit a Pull Request (PR) with a clear title describing your addition.
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this sales territory management resource helpful, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🔀 **Fork** and contribute updates or new tools.
+- 💖 **Sponsor the Maintainer**: [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007)
+
+Thank you for supporting open-source software and RevOps engineering!
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for informational purposes and does not constitute endorsement.
+- Sales territory management involves corporate CRM data and PII. Self-hosted deployments require enterprise security hardening and compliance with global privacy regulations (GDPR/CCPA).
+- Territory design requires human judgment; mathematical models provide optimization baselines but need sales leadership oversight for relationship continuity.
+
+---
+
+## 📊 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Sales-Territory-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Sales-Territory-Management&type=date&legend=top-left)
